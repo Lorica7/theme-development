@@ -1,0 +1,35 @@
+//Backgrounds
+
+// & is a placeholder for the class variable (.bg)
+
+.bg {
+  &-primary {
+    background-color: set-background($primary-color);
+    border: #ccc 1px solid;
+  }
+  &-light {
+    background-color: set-background($light-color);
+  }
+  &-dark {
+    background-color: set-background($dark-color);
+  }
+  &-success {
+    background-color: set-background($primary-color);
+  }
+  &-danger {
+    background-color: set-background($primary-color);
+  }
+  &-white {
+    background-color: set-background(#fff);
+    border: #ccc 1px solid;
+  }
+}
+
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: ;
+}
