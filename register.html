@@ -23,18 +23,25 @@
            <li><a href="login.html" >Login</a></li>
        </ul>
    </nav>
-   <section class="landing">
-       <div class="dark-overlay">
-           <div class="landing-inner">
-               <h1 class="x-large">Dev and Design - Connected</h1>
-               <h2 class="large">Developers + Designers = Devigners</h2>
-               <p class="lead"> Share your portfolio, posts, ideas, and questions with other web creators. </p>
-           <div class="buttons">
-               <a href="register.html" class="btn btn-primary">Sign Up</a>
-               <a href="login.html" class="btn btn">Log In</a>
-           </div>
-            </div>
-       </div>
+   <section class="container">
+    <h1 class="large text-primary">Sign Up</h1>
+    <p class="lead"><i class="fas fa-user">Create Your Account</i></p>
+    <form action="dashboard.html" class="form">
+        <div class="form-group">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <input type="email" placeholder="Email Address"> 
+        </div>
+        <div class="form-group">
+            <input type="pasword" placeholder="Password" minlength="6"> 
+        </div>
+        <div class="form-group">
+            <input type="pasword" placeholder="Confirm Password" minlength="6"> 
+        </div>
+        <input type="submit" value="Register" class="btn btn-primary"/>
+    </form>
+    <p class="my-1">Already Have an account?<a href="login.html"></a>Sign In</p>
    </section>
 </body>
 </html>
